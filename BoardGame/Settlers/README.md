@@ -1,1 +1,0 @@
-Settlers are the NPCs living in the village. 

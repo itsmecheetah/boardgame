@@ -1,1 +1,0 @@
-Items can sometimes be picked up as a result of certain events or tiles.
