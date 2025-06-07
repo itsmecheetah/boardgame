@@ -1,0 +1,71 @@
+{"event": {
+  "version": "1",
+  "id": "IncursionId",
+  "content": {
+    "name": "IncursionName",
+    "lore": "IncursionLore",
+    "ghostlore": "IncursionGhostLore",
+    "description": [ 
+      {
+        "type": "body", 
+        "format": ["italic","bold"], 
+        "value": "Hello World!"
+      },
+      {
+        "type": "body",
+        "color": "#ff0000", 
+        "format": ["strikethrough","underline"],
+        "value": "Hello World!"
+      },
+      {
+        "type": "roll", 
+        "outcomes": [{
+          "number": "0-4",
+          "lore": "OutcomeLore",
+          "description": "OutcomeDescription"
+        },
+        {
+          "number": "5+",
+          "lore": "OutcomeLore",
+          "description":"OutcomeDescription"
+        }
+      ]
+      },
+      {
+        "type": "body", 
+        "color": "#00ff00", 
+        "value": "Hello World!"}
+    ],
+    "ghostdescription": [ 
+      {
+        "type": "body", 
+        "format": ["italic","bold"], 
+        "value": "Hello World!"
+      },
+      {
+        "type": "body",
+        "color": "#ff0000", 
+        "format": ["strikethrough","underline"],
+        "value": "Hello World!"
+      },
+      {
+        "type": "roll", 
+        "outcomes": [{
+          "number": "0-4",
+          "lore": "OutcomeLore",
+          "description": "OutcomeDescription"
+        },
+        {
+          "number": "5+",
+          "lore": "OutcomeLore",
+          "description":"OutcomeDescription"
+        }
+      ]
+      },
+      {
+        "type": "body", 
+        "color": "#00ff00", 
+        "value": "Hello World!"}
+    ]
+  }
+}}
