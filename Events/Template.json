@@ -1,0 +1,10 @@
+{
+  "event": {
+    "id": "EventId",
+    "content": {
+      "name": "EventName",
+      "lore": "EventLore",
+      "description": "EventDescription"
+    }
+  }
+}
