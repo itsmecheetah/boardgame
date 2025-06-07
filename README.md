@@ -111,3 +111,7 @@ Triggers are given no English name, only an ID. All triggers start with a prefix
 | ------------- | ------------- |---|---| ------------- |
 | I             | 012           |   |   | I012          |
 | I             | 038           |   |   | I038          |
+
+
+## License
+This project is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
