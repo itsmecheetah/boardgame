@@ -1,0 +1,7 @@
+{"trigger": {
+  "version": "1",
+  "id": "TriggerId",
+  "subscribers": [
+    "subscriber1", "subscriber2", "subscriber3", "subscriber4"
+  ]
+}}
