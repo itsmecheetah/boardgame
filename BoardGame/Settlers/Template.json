@@ -1,0 +1,14 @@
+{"settler": {
+  "version": "1",
+  "id": "SettlerId",
+  "content": {
+    "name": "SettlerName",
+    "lore": "SettlerLore",
+    "stats": {
+      "Statistic1": "Value",
+      "Statistic2": "Value",
+      "Statistic3": "Value",
+      "Statistic4": "Value"
+    }
+  }
+}}
