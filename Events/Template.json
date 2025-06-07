@@ -1,10 +1,44 @@
-{
-  "event": {
-    "id": "EventId",
-    "content": {
-      "name": "EventName",
-      "lore": "EventLore",
-      "description": "EventDescription"
-    }
+{"event": {
+  "version": "1",
+  "id": "EventId",
+  "access": [
+    "Exploration",
+    "Investigation",
+    "Incursion"
+  ],
+  "content": {
+    "name": "EventName",
+    "lore": "EventLore",
+    "description": [ 
+      {
+        "type": "body", 
+        "format": ["italic","bold"], 
+        "value": "Hello World!"
+      },
+      {
+        "type": "body",
+        "color": "#ff0000", 
+        "format": ["strikethrough","underline"],
+        "value": "Hello World!"
+      },
+      {
+        "type": "roll", 
+        "outcomes": [{
+          "number": "0-4",
+          "lore": "OutcomeLore",
+          "description": "OutcomeDescription"
+        },
+        {
+          "number": "5+",
+          "lore": "OutcomeLore",
+          "description":"OutcomeDescription"
+        }
+      ]
+      },
+      {
+        "type": "body", 
+        "color": "#00ff00", 
+        "value": "Hello World!"}
+    ]
   }
-}
+}}

@@ -1,1 +1,0 @@
-Haunts occur once the players have accused a settler.
