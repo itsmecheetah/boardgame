@@ -1,0 +1,44 @@
+{"item": {
+  "version": "1",
+  "id": "ItemId",
+  "access": [
+    "Exploration",
+    "Investigation",
+    "Incursion"
+  ],
+  "content": {
+    "name": "ItemName",
+    "lore": "ItemLore",
+    "description": [ 
+      {
+        "type": "body", 
+        "format": ["italic","bold"], 
+        "value": "Hello World!"
+      },
+      {
+        "type": "body",
+        "color": "#ff0000", 
+        "format": ["strikethrough","underline"],
+        "value": "Hello World!"
+      },
+      {
+        "type": "roll", 
+        "outcomes": [{
+          "number": "0-4",
+          "lore": "OutcomeLore",
+          "description": "OutcomeDescription"
+        },
+        {
+          "number": "5+",
+          "lore": "OutcomeLore",
+          "description":"OutcomeDescription"
+        }
+      ]
+      },
+      {
+        "type": "body", 
+        "color": "#00ff00", 
+        "value": "Hello World!"}
+    ]
+  }
+}}
